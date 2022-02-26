@@ -15,19 +15,14 @@ class _StoryPageViewState extends State<StoryPageView> {
   Widget build(BuildContext context) {
     final List<StoryItem> storyItems = [
       StoryItem.text(
-          title:
-              '''Mobil kodlama dersini anlatan hocalarımıza destekleri için teşekkür ederiz.''',
-          backgroundColor: Colors.blueGrey),
-      StoryItem.text(
-          title:
-              "Bize elbette tebrik etmek düşer. Daha iyilerini yapacağından şüphemiz yok \n\n #Mobil Kodlama dersini anlatan hocalar. \n😉",
+          title: "hi, it's my first time story \n\n 😉",
           backgroundColor: Colors.blueGrey),
       StoryItem.pageImage(
           url:
               "https://images.unsplash.com/photo-1553531384-cc64ac80f931?ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8bW91bnRhaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
           controller: controller),
       StoryItem.pageImage(
-          url: "https://wp-modula.com/wp-content/uploads/2018/12/gifgif.gif",
+          url: "https://media.giphy.com/media/ErZ8hv5eO92JW/giphy.gif",
           controller: controller,
           imageFit: BoxFit.contain),
     ];
